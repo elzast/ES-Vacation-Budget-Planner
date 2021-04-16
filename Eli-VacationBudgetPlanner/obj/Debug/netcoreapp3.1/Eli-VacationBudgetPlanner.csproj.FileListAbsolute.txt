@@ -1,0 +1,12 @@
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/bin/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.deps.json
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/bin/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.runtimeconfig.json
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/bin/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.runtimeconfig.dev.json
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/bin/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.dll
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/bin/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.pdb
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/obj/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.csprojAssemblyReference.cache
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/obj/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.AssemblyInfoInputs.cache
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/obj/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.AssemblyInfo.cs
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/obj/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.csproj.CoreCompileInputs.cache
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/obj/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.dll
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/obj/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.pdb
+/Users/Eli/Projects/Eli-VacationBudgetPlanner/Eli-VacationBudgetPlanner/obj/Debug/netcoreapp3.1/Eli-VacationBudgetPlanner.genruntimeconfig.cache
