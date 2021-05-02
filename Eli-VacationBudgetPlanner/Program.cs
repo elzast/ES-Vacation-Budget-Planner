@@ -24,9 +24,13 @@ namespace Eli_VacationBudgetPlanner
                     Console.WriteLine("**************");
                     Console.WriteLine("How many days are you planning to stay in Mexico?");
                     daysStayed = int.Parse(Console.ReadLine());
+                    int hoursStayed = daysStayed * 24;
+                    int minutesStayed = hoursStayed * 60;
+                    Console.WriteLine($"You'll be staying for {daysStayed} days which is {hoursStayed} hours or {minutesStayed} minutes");
                     Console.WriteLine("How much money are you bringing with you?");
                     amountBrought = double.Parse(Console.ReadLine());
                     double usdAmountPerDay = amountBrought / daysStayed;
+                   
                     double convertedMoneyPerDay = usdAmountPerDay * 20.24;
                     Console.WriteLine($"You can spend {convertedMoneyPerDay} pesos which is {usdAmountPerDay} USD per day.");
                     Console.WriteLine("Enjoy your trip!");
@@ -40,6 +44,9 @@ namespace Eli_VacationBudgetPlanner
                     Console.WriteLine("**************");
                     Console.WriteLine("How many days are you planning to stay in Jamaica?");
                     daysStayed = int.Parse(Console.ReadLine());
+                    int hoursStayed2 = daysStayed * 24;
+                    int minutesStayed2 = hoursStayed2 * 60;
+                    Console.WriteLine($"You'll be staying for {daysStayed} days which is {hoursStayed2} hours or {minutesStayed2} minutes");
                     Console.WriteLine("How much money are you bringing with you?");
                     amountBrought = double.Parse(Console.ReadLine());
                     double usdAmountPerDay2 = amountBrought / daysStayed;
