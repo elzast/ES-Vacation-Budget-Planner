@@ -1,17 +1,21 @@
-﻿<Properties StartupConfiguration="{401F73EB-F81F-4BE3-BAD3-98CB08A0FD52}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Eli-VacationBudgetPlanner/Program.cs">
+﻿<Properties StartupConfiguration="{9DC0E8F9-CAB7-4EA5-8EA3-9CD8DAC47E5F}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Eli-VacationBudgetPlanner/Program.cs" Line="72" Column="1" />
+      <File FileName="Program.cs" Line="69" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Eli-VacationBudgetPlanner" expanded="True">
             <Node name="Eli-VacationBudgetPlanner" expanded="True">
+              <Node name="Dependencies" expanded="True" />
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
