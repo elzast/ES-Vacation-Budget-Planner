@@ -7,6 +7,7 @@ namespace Eli_VacationBudgetPlanner
         static void Main(string[] args)
         {
             bool passwordCheck = true;
+            int pwAttempts = 0;
             Console.WriteLine("Welcome to your vacation budget app!");
             Console.WriteLine("Tell me your name");
             Console.Write("Name: ");
@@ -14,24 +15,37 @@ namespace Eli_VacationBudgetPlanner
 
             bool keepGoing = true;
 
-           
-                
+
+
+            while (passwordCheck)
+            {
                 Console.WriteLine($"Welcome, {userName}. Please enter the correct password to continue");
                 string password = Console.ReadLine().ToLower();
-                if (password != "abc123") { Console.WriteLine("The password is incorrect");
-                    Console.WriteLine("Press ENTER to exit");
+                if (password != "abc123")
+                {
+                    Console.WriteLine("The password is incorrect");
+                    pwAttempts++;
+                    
+                }
+                if (pwAttempts == 3) {
+                    Console.WriteLine("Max attempts succeeded.  The program will now exit");
                     Console.ReadLine();
+                    passwordCheck = false;
                     keepGoing = false;
                 }
-                if (password == "abc123") { Console.WriteLine("User validation successful"); }
+                if (password == "abc123") { Console.WriteLine("User validation successful");
+                    passwordCheck = false;
+                }
+            }
                 while (keepGoing)
                 {
-                    Console.Write("Country: ");
+                    Console.WriteLine($"You are now in the budget application, {userName}. Select a country 1) Mexico or 2) Jamaica  ");
+                int destination = int.Parse(Console.ReadLine());
                 const int hourInDay = 24;
                 const int hourToMinuteVal = 60;
                 const double pesoConvVal = 20.24;
                 const double jamaicanDollarsVal = 152.402;
-                int destination = int.Parse(Console.ReadLine());
+                
                 int daysStayed;
                 double amountBrought;
                 switch (destination)
