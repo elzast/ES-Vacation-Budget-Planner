@@ -20,7 +20,7 @@ namespace Eli_VacationBudgetPlanner
             while (passwordCheck)
             {
                 Console.WriteLine($"Welcome, {userName}. Please enter the correct password to continue");
-                string password = Console.ReadLine().ToLower();
+                string password = Console.ReadLine();
                 if (password != "abc123")
                 {
                     Console.WriteLine("The password is incorrect");
@@ -54,6 +54,7 @@ namespace Eli_VacationBudgetPlanner
 
                         Console.WriteLine("Great, Mexico sounds like an amazing trip!");
                         Console.WriteLine("**************");
+                        Console.WriteLine("**************");
                         Console.WriteLine("How many days are you planning to stay in Mexico?");
                         daysStayed = int.Parse(Console.ReadLine());
                         
@@ -75,6 +76,7 @@ namespace Eli_VacationBudgetPlanner
                     case 2:
 
                         Console.WriteLine("Great, Jamaica sounds like an amazing trip!");
+                        Console.WriteLine("**************");
                         Console.WriteLine("**************");
                         Console.WriteLine("How many days are you planning to stay in Jamaica?");
                         daysStayed = int.Parse(Console.ReadLine());
